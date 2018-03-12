@@ -1,0 +1,199 @@
+a {
+	color: $color-orange;
+
+	&:hover {
+		color: lighten($color-orange, 10)
+	}
+}
+
+p {
+	color: $color-grey;
+	margin-bottom: 2rem;
+    margin-top: 0rem;
+	line-height: 1.65;
+	letter-spacing: 0.01rem;
+	font-size: 1.1rem;
+
+	+ p {
+		margin-top: -1rem;
+	}
+
+	> .button {
+		margin-top: 0.5rem;
+	}
+}
+
+.flex-row-reverse {
+	flex-direction: row-reverse;
+}
+
+.orange {
+	color: $color-orange;
+}
+
+.container {
+	width: auto;
+	max-width: initial;
+}
+
+.divider {
+	clear: both;
+	float: none;
+	background-color: #CCC;
+	height: 1px;
+	margin: 0;
+}
+
+a.button, button.button {
+	font-family: $family-sans-serif-alt;
+	font-size: .825rem;
+	font-weight: 700;
+	letter-spacing: 0.05rem;
+	text-transform: uppercase;
+	padding: 1.25rem;
+}
+
+h1, h2, h3 {
+	font-family: $family-sans-serif-alt;
+	text-transform: uppercase;
+	color: $color-grey;
+	font-weight: 700;
+	letter-spacing: 0.075rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h1.title {
+	font-size: 1.5rem;
+	color: $color-grey;
+
+	&.jumbo {
+		font-size: 3.625rem;
+		white-space: nowrap;
+	}
+
+	.numfix {
+		font-weight: 700;
+	}
+}
+
+h2.subtitle, h3.subtitle {
+	font-family: $family-sans-serif;
+	font-style: italic;
+	font-size: 1.25rem;
+	text-transform: initial;
+	letter-spacing: 0.02rem;
+	color: $color-grey;
+}
+
+strong {
+	color: $color-grey;
+	font-weight: 600;
+}
+
+
+.numfix {
+	font-family: $family-sans-serif;
+	font-weight: inherit !important;
+	font-size: 110%;
+}
+
+div.image {
+	margin: 0 1.5rem;
+
+	&.is-pulled-left {
+		margin-left: 0;
+	}
+	&.is-pulled-right{
+		margin-right: 0;
+	}
+	img {
+
+		width: auto !important;
+		max-width: 350px;
+	}
+	label {
+		display: block;
+		text-align: center;
+		font-size: 0.875rem;
+		font-style: italic;
+		padding: 0.25rem;
+
+		> img {
+			display: inline-block;
+		}
+	}
+}
+
+.bullet-list {
+	clear: both;
+	background-color: $color-lightgrey3;
+	padding: 0.5rem 1.5rem;
+	margin-bottom: 1rem;
+
+	p {
+		margin-top: 0.5rem;
+		margin-bottom: 1rem;
+
+		~ li {
+			margin: 0.5rem 2rem 0.5rem 2rem;
+		}
+	}
+
+	li {
+		margin: 0.5rem 1rem;
+		font-size: 1rem;
+		line-height: 1.6;
+		&:before {
+			content: '\F054';
+		    font-family: 'FontAwesome';
+		    font-size: 0.625rem;
+		    position: relative;
+		    top: -2px;
+		    margin-right: 0.325rem;
+		    margin-left: -1rem;
+		}
+	}
+}
+
+/* -- page/vue-router transitions --*/
+.fade-enter-active, .fade-leave-active {
+  transition-property: opacity;
+  transition-duration: .25s;
+}
+
+.fade-enter-active {
+  transition-delay: .25s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
+
+@media screen and (max-width: 1023px){
+	h1.title {
+	//	margin-bottom: 0.75rem !important;
+
+		&.jumbo {
+			font-size: 1.65rem;
+		}
+	}
+
+	.bullet-list li {
+		margin-left: 1rem;
+	}
+
+	div.image {
+		width: 100%;
+		float: none;
+		clear:both;
+		text-align: center;
+
+		img {
+			max-width: 100%;
+			display: inline-block;
+		}
+	}
+}

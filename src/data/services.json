@@ -1,0 +1,88 @@
+
+{
+	"computed-digital-radiography": {
+		"title": "Computed/Digital Radiography",
+		"description": "Computed radiography (CR) is performed using similar equipment as conventional radiography with the exception that the technology uses photostimulable phosphor-imaging plate instead of x-ray film to produce the radiographic image"
+	},
+	"gamma-radiography": {
+		"title": "Gamma Radiography",
+		"description": "Radiography (RT) is an NDT method that utilizes electromagnetic energy in the form of x-rays or gamma rays. The radiograph is a two-dimensional negative image of the object on a film that is sensitive to radiation exposure."
+	},
+	"xray-radiography": {
+		"title": "X-Ray Radiography",
+		"description": "X-ray radiography is a nondestructive testing method that uses electromagnetic energy in the form of x-rays."
+	},
+	"magnetic-particle": {
+		"title": "Magnetic Particle Testing",
+		"description": "Magnetic Particle Testing (MT) is a method used for the detection of surface and subsurface defects and/ or discontinuities in ferromagnetic materials. A magnetic field is applied into the part, and iron particles are applied while the part is being magnetized."
+	},
+	"liquid-penetrant": {
+		"title": "Liquid Penetrant Testing",
+		"description": "Liquid Penetrant Testing (PT) is an NDT method used to locate surface-breaking defects and/or discontinuities. A low-viscosity fluid known as a penetrant is applied to the part and allowed to dwell on the part for a specified time."
+	},
+	"ultrasonic": {
+		"title": "Ultrasonic Testing",
+		"description": "Ultrasonic testing is capable of detecting surface and subsurface defects and/or discontinuities, and is commonly used for measuring material thickness, and for detecting flaws in newly manufactured or in-service components."
+	},
+	"phased-array-ultrasonic": {
+		"title": "Phased Array Ultrasonic Testing",
+		"description": "Phased Array Ultrasonic Testing (PAUT) is an accurate ultrasonic method for the detection and sizing of flaws in new construction and in-service welds and components, and is also used for defect monitoring on in-service welds and components."
+	},
+	"aut-corrosion-mapping": {
+		"title": "AUT and Corrosion Mapping",
+		"description": "TriQuest NDT offers Automated Ultrasonics for Inspections (AUT) and Corrosion Mapping; these applications can encompass many methods and techniques to fit our clients’ needs, industry specifications and site-specific requirements. "
+	},
+	"time-flight-diffraction": {
+		"title": "Time of Flight Diffraction",
+		"description": "Time-of-flight-diffraction (TOFD) is an accurate ultrasonic method for the detection and sizing of flaws in new construction and in-service welds and components, and is also used for defect monitoring on in-service welds and components."
+	},
+	"ferrite": {
+		"title": "Ferrite Testing",
+		"description": "The ferrite number (FN) and/ or ferrite percent (Fe%) are normally determined in welding procedures as a control of material corrosion susceptibility, mechanical properties, service suitability, and reliability."
+	},
+	"hardness": {
+		"title": "Hardness Testing",
+		"description": "Common hardness testing applications include welds, weld overlays, weld heat affected zone (HAZ), castings, forgings, fittings, piping, stress relieved material, machined parts, pressure vessels, structural steel, and materials and components requiring NACE MR0175 certification."
+	},
+	"xrf-pmi-alloy-analysis": {
+		"title": "XRF/PMI Alloy Analysis",
+		"description": "Positive Material Identification (PMI) also referred as Material Verification, is an NDT method used to identify metal alloy element compositions with a portable x-ray fluorescence alloy analyzer."
+	},
+	"api-653-tank-inspection": {
+		"title": "API <span class=\"numfix\">653</span> Tank Inspection",
+		"description": "TriQuest NDT offers a full range of in-service or out-of-service above-ground storage tanks inspections that are performed by highly skilled and experienced personnel in compliance with API 653 - Tank Inspection, Repair, Alteration, and Reconstruction."
+	},
+	"visual-inspection": {
+		"title": "Visual Inspection",
+		"description": "Our visual inspection personnel are certified to perform quality assurance and quality control services to the Oil & Gas, Manufacturing and Power Generation industries."
+	},
+	"pipeline-integrity": {
+		"title": "Pipeline Integrity",
+		"description": "We offer Pipeline Integrity Assessments conforming to industry standards, client specifications, and CSA Z662 – Oil and Gas Pipeline Systems. "
+	},
+	"rope-access-inspection": {
+		"title": "Rope Access Inspection",
+		"description": "This enhanced service optimizes costs for challenging industrial environments while maintaining the highest possible level of safety for our technicians, on-site personnel, and clients."
+	},
+	"optical-emission-spectroscopy-spark": {
+		"title": "(OES) Spark Testing",
+		"description": "TriQuest NDT offers our clients mobile Optical Emission Spectroscopy (OES) for metal analysis; Sample material is evaporated by means of arc discharge or spark discharge."
+	},
+	"guided-wave-ultrasonic": {
+		"title": "Guided Wave Ultrasonic Testing",
+		"description": "Guided Wave Ultrasonic Testing (GWUT) also referred to as Long Range Ultrasonic Testing (LRUT) is an inspection system used for screening and detecting changes in cross-section of pipes and plates."
+	},
+	"3d-laser-scanning": {
+		"title": "<span class=\"numfix\">3</span>D Laser Scanning",
+		"description": "3D laser scanning (Creaform Handyscan) is an innovative, intuitive and highly-effective tool that provides metrology-grade accuracy and resolution for inspection and reverse engineering projects."
+	},
+	"electromagnetic-3d-field-imaging": {
+		"title": "Electromagnetic <span class=\"numfix\">3</span>D Field Imaging",
+		"description": "Echo 3D is an Electro-Magnetic Field (EMF) technology using advanced Electro-Magnetic Field Imaging (EMFI) to measure, map and analyze electro-magnetic forces to detect surface breaking defects."
+	},
+	"in-house-radiography": {
+		"title": "In-House Radiography",
+		"description": "TriQuest NDT facilities allow us to perform all aspects of NDT in our shop quickly and efficiently for our clients that require offsite inspection. We utilize three indoor radiography testing bunkers that are available 24/7."
+	}
+
+}

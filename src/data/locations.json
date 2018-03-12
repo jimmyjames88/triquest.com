@@ -1,0 +1,165 @@
+[
+	{
+		"name": "Calgary",
+		"subtitle": "Corporate",
+		"address": {
+			"line1": "7425 - 107 Avenue SE",
+			"line2": "Calgary, AB T2C 5N6"
+		},
+		"phone": "403-263-2216",
+		"fax": "403-263-2217",
+		"contacts": [
+			{
+				"name": "Michel (Mike) Chevrier",
+				"title": "President / RSO",
+				"email": "mchevrier@triquestndt.com",
+				"linkedin": ""
+			},
+			{
+				"name": "Jeff McEachern",
+				"title": "Business Development Manager",
+				"email": "jmceachern@triquestndt.com",
+				"linkedin": ""
+			},
+			{
+				"name": "Chris Chevrier",
+				"title": "QA Admin / Safety Officer",
+				"email": "cchevrier@triquestndt.com",
+				"linkedin": ""
+			}
+		],
+		"map_coords": [
+			"50.9583061",
+			"-113.9270651"
+		],
+		"is_big": true
+	},
+	{
+		"name": "Calgary",
+		"subtitle": "Branch Office",
+		"address": {
+			"line1": "7425 - 107 Avenue SE",
+			"line2": "Calgary, AB T2C 5N6"
+		},
+		"phone": "403-263-2216",
+		"fax": "403-263-2217",
+		"contacts": [
+			{
+				"name": "Nick Chevrier",
+				"email": "nchevrier@triquestndt.com",
+				"linkedin": ""
+			},
+			{
+				"name": "Trevor Durieux",
+				"email": "tdurieux@triquestndt.com",
+				"linkedin": ""
+			},
+			{
+				"name": "Dispatch",
+				"email": "calgarydispatch@triquestndt.com",
+				"linkedin": ""
+			}
+		],
+		"map_coords": [
+			"50.9583061",
+			"-113.9270651"
+		],
+		"is_big": false
+	},
+	{
+		"name": "Edmonton",
+		"subtitle": "Branch Office",
+		"address": {
+			"line1": "5615 Gateway Boulevard NW",
+			"line2": "Edmonton, AB T6H 2H3"
+		},
+		"phone": "780-437-7013",
+		"fax": "403-263-2217",
+		"contacts": [
+			{
+				"name": "Ian Winter",
+				"email": "iwinter@triquestndt.com",
+				"linkedin": ""
+			},
+			{
+				"name": "Chris Sjursen",
+				"email": "csjursen@triquestndt.com",
+				"linkedin": ""
+			},
+			{
+				"name": "Luke Mantyka",
+				"email": "lmantyka@triquestndt.com",
+				"linkedin": ""
+			},
+			{
+				"name": "Dispatch",
+				"email": "edmontondispatch@triquestndt.com",
+				"linkedin": ""
+			}
+		],
+		"map_coords": [
+			"53.4933595",
+			"-113.4917009"
+		],
+		"is_big": false
+	},
+	{
+		"name": "Lloydminster",
+		"subtitle": "Branch Office",
+		"address": {
+			"line1": "Unit A, 5903 - 47th Street",
+			"line2": "Lloydminster, AB T9V 2G4"
+		},
+		"phone": "780-875-6555",
+		"fax": "403-263-2217",
+		"contacts": [
+			{
+				"name": "Steven Garvey",
+				"email": "sgarvey@triquestndt.com",
+				"linkedin": ""
+			},
+			{
+				"name": "Dispatch",
+				"email": "lloyddispatch@triquestndt.com",
+				"linkedin": ""
+			}
+		],
+		"map_coords": [
+			"53.2807703",
+			"-110.0342751"
+		],
+		"is_big": false
+	},
+	{
+		"name": "Fort McMurray",
+		"subtitle": "Branch Office",
+		"address": {
+			"line1": "Unit 1 - 885 Memorial Drive",
+			"line2": "Fort McMurray, AB T9K 0K4"
+		},
+		"phone": "587-452-9989",
+		"fax": "403-263-2217",
+		"contacts": [
+			{
+				"name": "Mark Giguere",
+				"email": "mgiguere@triquestndt.com",
+				"linkedin": ""
+			},
+			{
+				"name": "Ian Winter",
+				"email": "iwinter@triquestndt.com",
+				"linkedin": ""
+			},
+			{
+				"name": "Dispatch",
+				"email": "fortmacdispatch@triquestndt.com",
+				"linkedin": ""
+			}
+		],
+		"map_coords": [
+			"56.7678667",
+			"-111.4270198"
+		],
+		"is_big": false
+	}
+]

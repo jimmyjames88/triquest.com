@@ -1,0 +1,25 @@
+[
+
+	{
+		"icon": "fa-bar-chart",
+		"title": "Instant Reporting",
+		"text": "On-site computer generated reports"
+	},
+	{
+		"icon": "fa-pie-chart",
+		"title": "Welder Proficiency Statistics",
+		"text": "Track welder performance & reliability"
+	},
+	{
+		"icon": "fa-area-chart",
+		"title": "Integrated Cloud Storage",
+		"text": "Secure client accessible report database"
+	},
+	{
+		"icon": "fa-line-chart",
+		"title": "QA/QC Documentation",
+		"text": "NDT procedures and personnel certifications"
+	}
+
+
+]

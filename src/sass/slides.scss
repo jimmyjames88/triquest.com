@@ -1,0 +1,120 @@
+#mytriquest-slide {
+	h2 {
+		font-family: $family-sans-serif-alt;
+		font-weight: 400;
+		font-size: 1.75rem;
+		text-transform: uppercase;
+		margin-bottom: 1rem;
+		white-space: nowrap;
+
+		img {
+			max-height: 24px;
+		}
+	}
+
+	.slider.is-clipped {
+		box-sizing: border-box;
+	}
+
+	.slide {
+		display: flex;
+
+		> div {
+
+			&:first-of-type {
+				width: 3.5rem;
+				margin-right: 0.75rem;
+			}
+
+			&:last-of-type {
+			}
+
+			> i {
+				display: flex;
+				width: 3.5rem;
+				height: 3.5rem;
+				align-items: center;
+				justify-content: center;
+				background-color: $color-lightgrey;
+				color: $color-grey;
+				font-size: 1.5rem;
+				border-radius: 50%;
+				float: left;
+			}
+
+			> h3 {
+				font-family: $family-sans-serif-alt;
+				text-transform: uppercase;
+				font-size: 1.1rem;
+				font-weight: 600;
+				letter-spacing: 0.01rem;
+				line-height: 1.2;
+			}
+
+			> p {
+				font-size: 1rem;
+				line-height: 1.1rem;
+				margin-top: 0.25rem;
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1023px){
+	#mytriquest-slide {
+
+		.slider {
+
+
+			&.is-clipped {
+				height: 98px;
+			}
+		}
+
+		.slide {
+			display: flex;
+			align-items: center;
+			padding-right: 0.25rem;
+
+			> div {
+
+				&:first-of-type {
+					width: 3.5rem;
+					margin-right: 0.5rem;
+				}
+
+				&:last-of-type {
+
+				}
+
+				> i {
+					display: flex;
+					width: 3.5rem;
+					height: 3.5rem;
+					align-items: center;
+					justify-content: center;
+					background-color: $color-lightgrey;
+					color: $color-grey;
+					font-size: 1.5rem;
+					border-radius: 50%;
+					float: left;
+					position: relative;
+					top: -0.25rem;
+				}
+
+				> h3 {
+
+					font-size: 0.825rem;
+
+				}
+
+				> p {
+					font-size: 0.875rem;
+					line-height: 1.1rem;
+					margin-top: 0.25rem;
+				}
+			}
+		}
+	}
+}

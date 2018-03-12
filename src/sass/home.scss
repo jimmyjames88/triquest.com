@@ -1,0 +1,20 @@
+#home {
+	.certification-badges {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+
+
+		span {
+			display: inline-block;
+			padding: 1rem 0.125rem;
+
+			img {
+				width: 100%;
+			}
+
+
+		}
+	}
+}

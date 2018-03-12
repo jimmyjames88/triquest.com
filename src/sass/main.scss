@@ -1,0 +1,41 @@
+// import these to change variable values
+@import "../../bower_components/bulma/sass/utilities/initial-variables";
+@import "../../bower_components/bulma/sass/utilities/functions";
+// -------------------------------------------------------------------------- //
+// custom bulma & color variables
+$color-grey: #7e7e7e;
+$color-orange: #d32e12;
+$color-lightgrey: #e7e8ec;
+$color-lightgrey2: #cccccc;
+$color-lightgrey3: #f3f3f3;
+$color-blacktranslucent: rgba(0, 0, 0, 0.925);
+$color-light: #ffffff;
+$color-linkedin: #0077b5;
+$primary: $color-orange;
+$family-sans-serif: 'Source Sans Pro', sans-serif;
+$family-sans-serif-alt: 'Raleway', sans-serif;
+// -------------------------------------------------------------------------- //
+// import the rest of bulma:
+//@import "../../bower_components/bulma/bulma";
+
+// or just import what we need:
+@import "../../bower_components/bulma/sass/utilities/_all";
+@import "../../bower_components/bulma/sass/base/_all";
+@import "../../bower_components/bulma/sass/components/modal";
+@import "../../bower_components/bulma/sass/components/menu";
+@import "../../bower_components/bulma/sass/grid/_all";
+@import "../../bower_components/bulma/sass/elements/_all";
+@import "../../bower_components/bulma/sass/layout/section";
+@import "../../bower_components/bulma/sass/layout/hero";
+// -------------------------------------------------------------------------- //
+
+// import TriQuest SASS files
+@import "./global";
+@import "./layout";
+@import "./banner";
+@import "./forms";
+@import "./slides";
+@import "./home";
+@import "./contact";
+@import "./services";
+@import "./service-details";
