@@ -77,11 +77,6 @@
 		"fax": "403-263-2217",
 		"contacts": [
 			{
-				"name": "Ian Winter",
-				"email": "iwinter@triquestndt.com",
-				"linkedin": ""
-			},
-			{
 				"name": "Chris Sjursen",
 				"email": "csjursen@triquestndt.com",
 				"linkedin": ""
@@ -89,6 +84,11 @@
 			{
 				"name": "Luke Mantyka",
 				"email": "lmantyka@triquestndt.com",
+				"linkedin": ""
+			},
+			{
+				"name": "Ian Winter",
+				"email": "iwinter@triquestndt.com",
 				"linkedin": ""
 			},
 			{

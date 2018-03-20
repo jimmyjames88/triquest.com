@@ -158,6 +158,25 @@ div.image {
 	}
 }
 
+.certification-badges {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+
+
+	span {
+		display: inline-block;
+		padding: 1rem 1rem;
+
+		img {
+			width: 100%;
+		}
+
+
+	}
+}
+
 /* -- page/vue-router transitions --*/
 .fade-enter-active, .fade-leave-active {
   transition-property: opacity;
