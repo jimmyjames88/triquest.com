@@ -15,7 +15,7 @@
 				</p>
 				<h2>MY<span class="orange">TRIQUEST</span> Software</h2>
 				<p>
-					MY<span class="orange">TRIQUEST</span>, our proprietary software, enhances our services by providing instant electronic reporting, job dispatching, inventory and asset control,
+					MY<span class="orange">TRIQUEST</span> enhances our services by providing instant electronic reporting, job dispatching, inventory and asset control,
 					access to NDT procedures, NDT personnel certifications, and client welder statistics including weld pass and failure rates. This information is securely
 					available on a client portal and is a key component to our commitment to providing timely information to optimize our client's operations.
 				</p>

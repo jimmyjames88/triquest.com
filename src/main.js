@@ -32,7 +32,7 @@ const router = new VueRouter({
 				metaTags: [
 					{
 						name: "description",
-						content: "TriQuest NDT offers a variety of Nondestructive Testing (NDT) 24 hours a day 7 days a week for oil & gas and other industries."
+						content: "TriQuest NDT offers a variety of Nondestructive Testing (NDT) 24 hours a day 7 days a week.  We offer radiography, ultrasonic, hardness testing, corrosion mapping, tank inspection, and many other nondestructive inspection services."
 					}
 				]
 			}

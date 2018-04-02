@@ -1,18 +1,20 @@
 <template>
-	<div class="column location" v-bind:class="this.location.is_big ? 'is-12 big' : 'is-6-tablet is-6-desktop is-6-widescreen is-4-fullhd'">
+	<div class="column location" v-bind:class="this.location.is_big ? 'is-8-desktop is-8-widescreen is-12-fullhd big' : 'is-6-tablet is-4-desktop is-4-widescreen is-3-fullhd'">
 		<div class="columns is-multiline" v-bind:class="{ 'flex-row-reverse' : this.location.is_big }">
-			<div class="column" v-bind:class="{ 'is-12': !this.location.is_big }">
-				<google-map :name="mapName" :coords="this.location.map_coords"></google-map>
-			</div>
 			<div class="column">
-				<h2>{{ this.location.name }}</h2>
-				<h3 class="subtitle">{{ this.location.subtitle }}</h3>
+				<h2>{{ location.name }}</h2>
+				<h3 class="subtitle">{{ location.subtitle }}</h3>
 				<div class="address-phone">
-					<div>
-						{{ this.location.address.line1 }}<br />
-						{{ this.location.address.line2 }}
+					<div class="">
+						<p class="is-marginless">
+							{{ this.location.address.line1 }}<br />
+							{{ this.location.address.line2 }}
+						</p>
+						<p class="is-marginless">
+							<a :href="location.google_map" target="_blank" class="view-on-google"><i class="fa fa-map-marker"></i> View on Google Maps</a>
+						</p>
 					</div>
-					<div>
+					<div class="">
 						PH: <a :href="'tel:' + this.location.phone">{{ formatPhone(this.location.phone) }}</a><br />
 						FX: {{ formatPhone(this.location.fax) }}
 					</div>

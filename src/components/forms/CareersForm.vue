@@ -267,7 +267,7 @@
 			<div class="columns">
 				<div class="column">
 					<p>
-						<input type="submit" class="button is-primary" value="Submit" v-bind:disabled="resultMessageSuccess">
+						<button type="submit" class="button is-primary" v-bind:disabled="resultMessageSuccess">Submit</button>
 					</p>
 					<div class="notification" v-bind:class="[resultMessageSuccess ? 'is-success' : 'is-warning']" v-show="resultMessage" v-html="resultMessage">
 					</div>

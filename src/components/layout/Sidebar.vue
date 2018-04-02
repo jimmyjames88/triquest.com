@@ -8,6 +8,9 @@
 							<router-link to="/" exact v-on:click.native="closeSidebar()">Home</router-link>
 						</li>
 						<li>
+							<router-link to="/contacts-locations" v-on:click.native="closeSidebar()">Contacts &amp; Locations</router-link>
+						</li>
+						<li>
 							<router-link to="/services" v-on:click.native="closeSidebar()">Services</router-link>
 						</li>
 						<li>
@@ -18,9 +21,6 @@
 						</li>
 						<li>
 							<router-link to="/careers" v-on:click.native="closeSidebar()">Careers</router-link>
-						</li>
-						<li>
-							<router-link to="/contacts-locations" v-on:click.native="closeSidebar()">Contacts &amp; Locations</router-link>
 						</li>
 						<li>
 							<router-link to="/mytriquest-software" v-on:click.native="closeSidebar()">MYTRIQUEST Software</router-link>
@@ -53,9 +53,13 @@
 				</div>
 			</section>
 			<div class="footer">
-				<a href="https://www.cwbgroup.org/services/certified-directory-search/inspection-companies" target="_blank" class="is-inline-block is-hidden-mobile">
-					<img :src="this.$urlBase + 'assets/img/badges/cwb_large.png'" class="" />
-				</a>
+
+					<form ref="CWBForm" action="https://www.cwbgroup.org/certification-and-qualification/certified-directory-search/inspection-companies" target="_blank" method="post">
+						<input name="inspection_company_name" type="hidden" value="triquest nondestructive testing" />
+						<input type="hidden" name="form_id" value="cwb_certified_search_inspection_company_form">
+						<img :src="this.$urlBase + 'assets/img/badges/cwb_large.png'" class="is-clickable" @click="submitCWBForm" />
+					</form>
+
 			</div>
 		</nav>
 		<div id="sidebar-background" v-on:click="closeSidebar()">
@@ -75,6 +79,9 @@
 		methods: {
 			closeSidebar(){
 				this.$parent.sidebarOpen = false;
+			},
+			submitCWBForm(){
+				this.$refs.CWBForm.submit();
 			}
 		}
 	}

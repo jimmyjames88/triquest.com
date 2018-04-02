@@ -1,41 +1,6 @@
 [
 	{
 		"name": "Calgary",
-		"subtitle": "Corporate",
-		"address": {
-			"line1": "7425 - 107 Avenue SE",
-			"line2": "Calgary, AB T2C 5N6"
-		},
-		"phone": "403-263-2216",
-		"fax": "403-263-2217",
-		"contacts": [
-			{
-				"name": "Michel (Mike) Chevrier",
-				"title": "President / RSO",
-				"email": "mchevrier@triquestndt.com",
-				"linkedin": ""
-			},
-			{
-				"name": "Jeff McEachern",
-				"title": "Business Development Manager",
-				"email": "jmceachern@triquestndt.com",
-				"linkedin": ""
-			},
-			{
-				"name": "Chris Chevrier",
-				"title": "QA Admin / Safety Officer",
-				"email": "cchevrier@triquestndt.com",
-				"linkedin": ""
-			}
-		],
-		"map_coords": [
-			"50.9583061",
-			"-113.9270651"
-		],
-		"is_big": true
-	},
-	{
-		"name": "Calgary",
 		"subtitle": "Branch Office",
 		"address": {
 			"line1": "7425 - 107 Avenue SE",
@@ -60,6 +25,7 @@
 				"linkedin": ""
 			}
 		],
+		"google_map": "https://www.google.ca/maps/place/Triquest+Nondestructive+Testing+Corporation/@50.9583061,-113.9248711,15z/data=!4m5!3m4!1s0x0:0xbd9bb8f427883089!8m2!3d50.9583061!4d-113.9248711",
 		"map_coords": [
 			"50.9583061",
 			"-113.9270651"
@@ -97,6 +63,7 @@
 				"linkedin": ""
 			}
 		],
+		"google_map":"https://www.google.ca/maps/place/TriQuest+NDT/@53.4933595,-113.4917009,15z/data=!4m5!3m4!1s0x0:0x95aee8800830c75f!8m2!3d53.4933595!4d-113.4917009",
 		"map_coords": [
 			"53.4933595",
 			"-113.4917009"
@@ -124,6 +91,7 @@
 				"linkedin": ""
 			}
 		],
+		"google_map": "https://www.google.ca/maps/place/TriQuest+NDT/@53.2807735,-110.0342751,17z/data=!3m1!4b1!4m5!3m4!1s0x5309b261fd7275c5:0x2d91800e9a9be1b1!8m2!3d53.2807703!4d-110.0320864",
 		"map_coords": [
 			"53.2807703",
 			"-110.0342751"
@@ -156,10 +124,47 @@
 				"linkedin": ""
 			}
 		],
+		"google_map": "https://www.google.ca/maps/place/TriQuest+NDT/@56.7678667,-111.4248311,15z/data=!4m5!3m4!1s0x0:0x66cbc7cf1558cd55!8m2!3d56.7678667!4d-111.4248311",
 		"map_coords": [
 			"56.7678667",
 			"-111.4270198"
 		],
 		"is_big": false
+	},
+	{
+		"name": "Calgary",
+		"subtitle": "Corporate",
+		"address": {
+			"line1": "7425 - 107 Avenue SE",
+			"line2": "Calgary, AB T2C 5N6"
+		},
+		"phone": "403-263-2216",
+		"fax": "403-263-2217",
+		"contacts": [
+			{
+				"name": "Michel (Mike) Chevrier",
+				"title": "President / RSO",
+				"email": "mchevrier@triquestndt.com",
+				"linkedin": ""
+			},
+			{
+				"name": "Jeff McEachern",
+				"title": "Business Development Manager",
+				"email": "jmceachern@triquestndt.com",
+				"linkedin": ""
+			},
+			{
+				"name": "Chris Chevrier",
+				"title": "QA Admin / Safety Officer",
+				"email": "cchevrier@triquestndt.com",
+				"linkedin": ""
+			}
+		],
+		"google_map": "https://www.google.ca/maps/place/Triquest+Nondestructive+Testing+Corporation/@50.9583061,-113.9248711,15z/data=!4m5!3m4!1s0x0:0xbd9bb8f427883089!8m2!3d50.9583061!4d-113.9248711",
+		"map_coords": [
+			"50.9583061",
+			"-113.9270651"
+		],
+		"is_big": true
 	}
 ]
