@@ -12,6 +12,8 @@
   "dependencies": {
     "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
+    "core-js": "^2.5.5",
+    "es6-promise": "^4.2.4",
     "prerender-spa-plugin": "^2.1.0",
     "vue": "^2.5.11",
     "vue-axios": "^2.0.2",

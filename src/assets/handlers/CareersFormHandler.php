@@ -89,7 +89,9 @@ function sendMail($attachment, $post){
 	$mail = new PHPMailer;
 	$mail->AddReplyTo($form->email , $form->name);
 	$mail->setFrom('careers@triquestndt.com');
-	$mail->addAddress('mchevrier@triquestndt.com');
+	$mail->addAddress('info@triquestndt.com');
+	$mail->addAddress('nchevrier@triquestndt.com');
+	$mail->addAddress('iwinter@triquestndt.com');
 	$mail->isHTML(true);
 	$mail->Subject = 'Career Application from website';
 	$mail->Body = $body;

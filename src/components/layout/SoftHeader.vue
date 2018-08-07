@@ -14,7 +14,7 @@
 					<ul class="is-pulled-right is-hidden-touch contact-info-block">
 						<li>
 							<a href="tel:+1-1855-263-2216">
-								<i class="fa fa-phone"></i> 1(855)263-2216
+								<i class="fa fa-phone"></i> 1-855-263-2216
 							</a>
 						</li>
 						<li>

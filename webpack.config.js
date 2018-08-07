@@ -40,7 +40,7 @@ const prerenderRoutes = [
 
 module.exports = {
 
-  entry: ['./src/main.js', './src/sass/main.scss'],
+  entry: ['core-js/fn/promise', './src/main.js', './src/sass/main.scss'],
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/',
