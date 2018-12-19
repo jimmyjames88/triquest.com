@@ -8,7 +8,7 @@
 				</div>
 				<p>
 					TriQuest Nondestructive Testing Corp. (TriQuest NDT) is a Nondestructive Testing Service Company providing services throughout Western Canada to
-					the Oil & Gas industry, Manufacturing, Fabrication, Power Generation, In-Service Piping, and Above Ground Storage Tanks. We specialize in the following
+					the Oil &amp; Gas industry, Manufacturing, Fabrication, Power Generation, In-Service Piping, and Above Ground Storage Tanks. We specialize in the following
 					NDT methods; Conventional Gamma Radiography, Computed Radiography, Conventional Ultrasonics, Automated Ultrasonics, Phased Array, TOFD, Pipeline Integrity,
 					API 653 Tank Inspection, Magnetic Particle, Liquid Penetrant, Visual Inspection, Ferrite Testing, Hardness Testing, XRF Alloy Analysis, Optical Emission
 					Spectroscopy (OES)- Spark Testing, Boroscope Inspection, and Rope Access Inspection.
@@ -30,7 +30,7 @@
 				<div class="call-to-action">
 					<div>
 						<p>
-							TriQuest NDT is a vertified welding inspection organization per CSA Standard W1781.1 and inspectors are certified per CSA Standard W178.2 by the Canadian Welding Bureau (CWB).
+							TriQuest NDT is a certified welding inspection organization per CSA Standard W1781.1 and inspectors are certified per CSA Standard W178.2 by the Canadian Welding Bureau (CWB).
 						</p>
 					</div>
 					<div>
