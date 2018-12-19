@@ -90,8 +90,7 @@ function sendMail($attachment, $post){
 	$mail->AddReplyTo($form->email , $form->name);
 	$mail->setFrom('careers@triquestndt.com');
 	// $mail->addAddress('info@triquestndt.com');
-	$mail->addAddress('jamesa@innotechcollege.com');
-	$mail->addAddress('me@james-allen.ca');
+	// $mail->addAddress('me@james-allen.ca');
 	$mail->addAddress('nchevrier@triquestndt.com');
 	$mail->addAddress('iwinter@triquestndt.com');
 	$mail->isHTML(true);
