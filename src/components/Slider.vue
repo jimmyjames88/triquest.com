@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<transition-group tag="div" name="fade" class="slider columns is-hidden-desktop is-clipped">
-			<div class="column is-12 slide" v-for="(item, index) in slides" v-if="activeSlide == index" :key="index">
+			<div class="column is-12 slide" v-for="(item, index) in slides" v-if="activeSlide == index" :key="index + 0">
 				<div>
 					<i class="fa" v-bind:class="item.icon"></i>
 				</div>

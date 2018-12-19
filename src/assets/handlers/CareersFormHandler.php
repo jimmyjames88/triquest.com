@@ -12,7 +12,7 @@ function uploadFile ($file_field = null, $random_name = false) {
 	//Set max file size in bytes
 	$max_size = 1000000;
 	//Set default file extension whitelist
-	$whitelist_ext = array('pdf', 'doc', 'docx', 'odt');
+	$whitelist_ext = array('pdf', 'doc', 'docx', 'odt', 'txt', 'rtf');
 	//Set default file type whitelist
 	$whitelist_type = array('application/vnd.oasis.opendocument.text', 'application/pdf', 'application/x-pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
 
@@ -89,7 +89,9 @@ function sendMail($attachment, $post){
 	$mail = new PHPMailer;
 	$mail->AddReplyTo($form->email , $form->name);
 	$mail->setFrom('careers@triquestndt.com');
-	$mail->addAddress('info@triquestndt.com');
+	// $mail->addAddress('info@triquestndt.com');
+	$mail->addAddress('jamesa@innotechcollege.com');
+	$mail->addAddress('me@james-allen.ca');
 	$mail->addAddress('nchevrier@triquestndt.com');
 	$mail->addAddress('iwinter@triquestndt.com');
 	$mail->isHTML(true);
