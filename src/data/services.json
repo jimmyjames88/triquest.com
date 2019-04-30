@@ -83,6 +83,10 @@
 	"in-house-radiography": {
 		"title": "In-House Radiography",
 		"description": "TriQuest NDT facilities allow us to perform all aspects of NDT in our shop quickly and efficiently for our clients that require offsite inspection. We utilize three indoor radiography testing bunkers that are available 24/7."
+	},
+	"pulsed-eddy-current": {
+		"title": "Pulsed Eddy Current",
+		"description": "Pulsed Eddy Current (PEC) is an NDT method that enables in-service inspections to identify areas of concern through coatings, fireproofing, weather jackets, concrete, and insulation with little to no surface preparation."
 	}
 
 }
