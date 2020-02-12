@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"name": "Calgary",
 		"subtitle": "Branch Office",
 		"address": {
@@ -8,8 +7,7 @@
 		},
 		"phone": "403-263-2216",
 		"fax": "403-263-2217",
-		"contacts": [
-			{
+		"contacts": [{
 				"name": "Nick Chevrier",
 				"email": "nchevrier@triquestndt.com",
 				"linkedin": ""
@@ -41,15 +39,9 @@
 		},
 		"phone": "780-437-7013",
 		"fax": "403-263-2217",
-		"contacts": [
-			{
+		"contacts": [{
 				"name": "Chris Sjursen",
 				"email": "csjursen@triquestndt.com",
-				"linkedin": ""
-			},
-			{
-				"name": "Luke Mantyka",
-				"email": "lmantyka@triquestndt.com",
 				"linkedin": ""
 			},
 			{
@@ -63,7 +55,7 @@
 				"linkedin": ""
 			}
 		],
-		"google_map":"https://www.google.ca/maps/place/TriQuest+NDT/@53.4933595,-113.4917009,15z/data=!4m5!3m4!1s0x0:0x95aee8800830c75f!8m2!3d53.4933595!4d-113.4917009",
+		"google_map": "https://www.google.ca/maps/place/TriQuest+NDT/@53.4933595,-113.4917009,15z/data=!4m5!3m4!1s0x0:0x95aee8800830c75f!8m2!3d53.4933595!4d-113.4917009",
 		"map_coords": [
 			"53.4933595",
 			"-113.4917009"
@@ -79,8 +71,7 @@
 		},
 		"phone": "780-875-6555",
 		"fax": "403-263-2217",
-		"contacts": [
-			{
+		"contacts": [{
 				"name": "Steven Garvey",
 				"email": "sgarvey@triquestndt.com",
 				"linkedin": ""
@@ -107,8 +98,7 @@
 		},
 		"phone": "587-452-9989",
 		"fax": "403-263-2217",
-		"contacts": [
-			{
+		"contacts": [{
 				"name": "Marc Giguere",
 				"email": "mgiguere@triquestndt.com",
 				"linkedin": ""
@@ -132,6 +122,30 @@
 		"is_big": false
 	},
 	{
+		"name": "Grande Prairie",
+		"subtitle": "Branch Office",
+		"address": {
+			"line1": "#110, 8715 - 109 Street",
+			"line2": "Grande Prairie, AB T8V 8H7"
+		},
+		"phone": "780-357-0640",
+		"fax": "403-263-2217",
+		"contacts": [{
+				"name": "Nick Chevrier",
+				"email": "nchevrier@triquestndt.com"
+			},
+			{
+				"name": "Dispatch",
+				"email": "gpdispatch@triquestndt.com"
+			}
+		],
+		"google_map": "https://www.google.com/maps/place/8715+109+St+%23110,+Grande+Prairie,+AB+T8V+8H7/@55.1592229,-118.8247182,17z/data=!3m1!4b1!4m5!3m4!1s0x5390916b36916937:0xd05be514f23838a9!8m2!3d55.1592229!4d-118.8225295",
+		"map_coords": [
+			"55.1592229",
+			"-118.8225295"
+		]
+	},
+	{
 		"name": "Calgary",
 		"subtitle": "Corporate",
 		"address": {
@@ -140,8 +154,7 @@
 		},
 		"phone": "403-263-2216",
 		"fax": "403-263-2217",
-		"contacts": [
-			{
+		"contacts": [{
 				"name": "Michel (Mike) Chevrier",
 				"title": "President / RSO",
 				"email": "mchevrier@triquestndt.com",
@@ -164,7 +177,6 @@
 		"map_coords": [
 			"50.9583061",
 			"-113.9270651"
-		],
-		"is_big": true
+		]
 	}
 ]
