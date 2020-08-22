@@ -31,11 +31,35 @@
 		"is_big": false
 	},
 	{
+		"name": "Calgary",
+		"subtitle": "Pipeline Integrity",
+		"address": {
+			"line1": "7425 - 107 Avenue SE",
+			"line2": "Calgary, AB T2C 5N6"
+		},
+		"phone": "403-263-2216",
+		"fax": "403-263-2217",
+		"contacts": [{
+				"name": "Bobby O'Brien",
+				"email": "robrien@triquestndt.com"
+			},
+			{
+				"name": "Dispatch",
+				"email": "info@triquestndt.com"
+			}
+		],
+		"google_map": "https://www.google.ca/maps/place/Triquest+Nondestructive+Testing+Corporation/@50.9583061,-113.9248711,15z/data=!4m5!3m4!1s0x0:0xbd9bb8f427883089!8m2!3d50.9583061!4d-113.9248711",
+		"map_coords": [
+			"50.9583061",
+			"-113.9270651"
+		]
+	},
+	{
 		"name": "Edmonton",
 		"subtitle": "Branch Office",
 		"address": {
-			"line1": "5615 Gateway Boulevard NW",
-			"line2": "Edmonton, AB T6H 2H3"
+			"line1": "4132 - 78 Avenue NW",
+			"line2": "Edmonton, AB T6B 3M8"
 		},
 		"phone": "780-437-7013",
 		"fax": "403-263-2217",
@@ -55,7 +79,36 @@
 				"linkedin": ""
 			}
 		],
-		"google_map": "https://www.google.ca/maps/place/TriQuest+NDT/@53.4933595,-113.4917009,15z/data=!4m5!3m4!1s0x0:0x95aee8800830c75f!8m2!3d53.4933595!4d-113.4917009",
+		"google_map": "https://www.google.com/maps/place/4132+78+Ave+NW,+Edmonton,+AB+T6B+3M8/",
+		"map_coords": [
+			"53.4933595",
+			"-113.4917009"
+		],
+		"is_big": false
+	},
+	{
+		"name": "Edmonton",
+		"subtitle": "Advanced / Specialty NDE",
+		"address": {
+			"line1": "4132 - 78 Avenue NW",
+			"line2": "Edmonton, AB T6B 3M8"
+		},
+		"phone": "780-437-7013",
+		"fax": "403-263-2217",
+		"contacts": [{
+				"name": "Jacques Saltarelli",
+				"email": "jsaltarelli@triquestndt.com"
+			},
+			{
+				"name": "Luke Mantyka",
+				"email": "lmantyka@triquestndt.com"
+			},
+			{
+				"name": "Dispatch",
+				"email": "edmontondispatch@triquestndt.com"
+			}
+		],
+		"google_map": "https://www.google.com/maps/place/4132+78+Ave+NW,+Edmonton,+AB+T6B+3M8/",
 		"map_coords": [
 			"53.4933595",
 			"-113.4917009"
@@ -144,6 +197,14 @@
 			"-118.8225295"
 		]
 	},
+
+
+	
+
+
+
+
+
 	{
 		"name": "Calgary",
 		"subtitle": "Corporate",
