@@ -6,7 +6,7 @@
 					<div class="column is-7-tablet is-8-mobile">
 						<h2 class="thin-heading">
 							MY<span class="orange">TRIQUEST</span>
-							<img :src="this.$urlBase + 'assets/img/windows-ios-android-logos.png'" class="os-logos" />
+							<img :src="require('@/assets/img/windows-ios-android-logos.png')" class="os-logos" />
 						</h2>
 						<slider></slider>
 						<p class="buttons">
@@ -15,13 +15,9 @@
 					</div>
 					<div class="column is-5-widescreen is-5-desktop is-6-tablet is-4-mobile banner-photo has-text-centered-touch is-flex-desktop is-flex-widescreen is-flex-fullhd">
 						<router-link to="/mytriquest" class="is-inline-block" title="Explore MYTRIQUEST NDT Software">
-							<img class="is-hidden-touch" :src="this.$urlBase + 'assets/img/mytriquest-screens.png'" alt="MYTRIQUEST NDT Software"/>
-							<img class="is-hidden-desktop" :src="this.$urlBase + 'assets/img/mytriquest-screens-mobile.png'" alt="MYTRIQUEST NDT Software" />
+							<img class="is-hidden-touch" :src="require('@/assets/img/mytriquest-screens.png')" alt="MYTRIQUEST NDT Software"/>
+							<img class="is-hidden-desktop" :src="require('@/assets/img/mytriquest-screens-mobile.png')" alt="MYTRIQUEST NDT Software" />
 						</router-link>
-						<!-- <div class="badges">
-							<img :src="this.$urlBase + 'assets/img/apple-store-badge.png'" alt="iOS Compatible" />
-							<img :src="this.$urlBase + 'assets/img/google-play-badge.png'" alt="Android Compatible" />
-						</div> -->
 					</div>
 				</div>
 			</div>
@@ -53,25 +49,25 @@
 						</p>
 						<div class="certification-badges">
 							<span>
-								<img :src="this.$urlBase + 'assets/img/badges/acsa.png'" alt="Alberta Construction Safety Association" />
+								<img :src="require('@/assets/img/badges/acsa.png')" alt="Alberta Construction Safety Association" />
 							</span>
 							<span>
-								<img :src="this.$urlBase + 'assets/img/badges/cor.png'" alt="Workplace Safety Certificate of Recognition" />
+								<img :src="require('@/assets/img/badges/cor.png')" alt="Workplace Safety Certificate of Recognition" />
 							</span>
 							<span>
-								<img :src="this.$urlBase + 'assets/img/badges/cwb.png'" alt="Canadian Welding Bureau" />
+								<img :src="require('@/assets/img/badges/cwb.png')" alt="Canadian Welding Bureau" />
 							</span>
 							<span>
-								<img :src="this.$urlBase + 'assets/img/badges/isn.png'" alt="ISNetworld" />
+								<img :src="require('@/assets/img/badges/isn.png')" alt="ISNetworld" />
 							</span>
 							<span>
-								<img :src="this.$urlBase + 'assets/img/badges/cqn.png'" alt="CanQual Network" />
+								<img :src="require('@/assets/img/badges/cqn.png')" alt="CanQual Network" />
 							</span>
 							<span>
-								<img :src="this.$urlBase + 'assets/img/badges/avetta.png'" alt="Avetta" />
+								<img :src="require('@/assets/img/badges/avetta.png')" alt="Avetta" />
 							</span>
 							<span>
-								<img :src="this.$urlBase + 'assets/img/badges/complyworks.png'" alt="ComplyWorks" />
+								<img :src="require('@/assets/img/badges/complyworks.png')" alt="ComplyWorks" />
 							</span>
 						</div>
 					</div>

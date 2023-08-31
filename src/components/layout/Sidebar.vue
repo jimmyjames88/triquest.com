@@ -57,7 +57,7 @@
 					<form ref="CWBForm" action="https://www.cwbgroup.org/certification-and-qualification/certified-directory-search/inspection-companies" target="_blank" method="post">
 						<input name="inspection_company_name" type="hidden" value="triquest nondestructive testing" />
 						<input type="hidden" name="form_id" value="cwb_certified_search_inspection_company_form">
-						<img :src="this.$urlBase + 'assets/img/badges/cwb_large.png'" class="is-clickable" @click="submitCWBForm" />
+						<img :src="require('@/assets/img/badges/cwb_large.png')" class="is-clickable" @click="submitCWBForm" />
 					</form>
 
 			</div>

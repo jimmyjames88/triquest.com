@@ -4,7 +4,7 @@
 			<div class="container">
 				<h1 class="title jumbo">About TriQuest NDT</h1>
 				<div class="image is-pulled-left">
-					<img :src="this.$urlBase + 'assets/img/triquest-building-photo.jpg'" alt="TriQuest NDT Calgary Office" />
+					<img :src="require('@/assets/img/triquest-building-photo.jpg')" alt="TriQuest NDT Calgary Office" />
 				</div>
 				<p>
 					TriQuest Nondestructive Testing Corp. (TriQuest NDT) is a Nondestructive Testing Service Company providing services throughout Western Canada to

@@ -6,9 +6,9 @@
 					My<span class="orange">TriQuest</span> Software
 				</h1>
 				<div class="image is-pulled-right">
-					<img :src="this.$urlBase + 'assets/img/mytriquest-screens.png'" />
+					<img :src="require('@/assets/img/mytriquest-screens.png')" />
 					<label>
-						<img :src="this.$urlBase + 'assets/img/windows-ios-android-logos.png'" />
+						<img :src="require('@/assets/img/windows-ios-android-logos.png')" />
 					</label>
 				</div>
 				<p>MYTRIQUEST is proprietary software which includes on-site computer generated reporting, client job dispatching, QA/QC documentation including NDT procedures, personnel technical and safety certifications, applicable codes and specifications, and client welder proficiency statistics for radiography services. </p>

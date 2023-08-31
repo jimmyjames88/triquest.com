@@ -6,7 +6,7 @@
 				<div>
 					<a href="http://james-allen.ca?ref=triquestndt" class="is-inline-block" target="_blank" title="Website by James Allen">
 						Website By<br />
-						<img :src="this.$urlBase + 'assets/img/james-allen.png'" />
+						<img :src="require('@/assets/img/james-allen.png')" />
 					</a>
 				</div>
 			</div>

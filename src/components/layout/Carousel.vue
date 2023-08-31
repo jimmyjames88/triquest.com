@@ -9,13 +9,13 @@
 			</p>
 		</div>
 		<div class="column is-3-widescreen is-4-desktop is-6-touch banner-photo">
-			<img :src="this.$urlBase + 'assets/img/mytriquest-screens.png'" />
+			<img :src="require('@/assets/img/mytriquest-screens.png')" />
 			<div class="badges">
 				<a href="#">
-					<img :src="this.$urlBase + 'assets/img/apple-store-badge.png'" />
+					<img :src="require('@/assets/img/apple-store-badge.png')" />
 				</a>
 				<a href="#">
-					<img :src="this.$urlBase + 'assets/img/google-play-badge.png'" />
+					<img :src="require('@/assets/img/google-play-badge.png')" />
 				</a>
 			</div>
 		</div>

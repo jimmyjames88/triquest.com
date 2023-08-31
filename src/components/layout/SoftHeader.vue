@@ -4,7 +4,7 @@
 			<div class="columns is-mobile is-vcentered">
 				<div class="column">
 					<router-link to="/" class="is-inline-block" title="TriQuest NDT">
-						<img :src="this.$urlBase + 'assets/img/triquest-ndt-logo.png'" alt="TriQuest NDT Nondestructive Testing" />
+						<img :src="require('@/assets/img/triquest-ndt-logo.png')" alt="TriQuest NDT Nondestructive Testing" />
 					</router-link>
 				</div>
 				<div class="column is-3-touch is-5-desktop is-clearfix">
