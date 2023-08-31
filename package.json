@@ -12,11 +12,12 @@
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "cross-env NODE_ENV=production vue-cli-service build"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "core-js": "^3.8.3",
+    "prerender-spa-plugin": "^3.4.0",
     "sass-loader": "^10.4.1",
     "vue": "^2.6.12",
     "vue-i18n": "^8.22.4",
@@ -28,6 +29,7 @@
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "cross-env": "^7.0.3",
     "sass": "^1.66.1",
     "vue-axios": "^3.5.2",
     "vue-template-compiler": "^2.6.11"
